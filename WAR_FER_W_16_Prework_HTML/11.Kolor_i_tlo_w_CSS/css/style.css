@@ -1,0 +1,28 @@
+.par1{
+    background-color: rgba(67, 3, 187, 0.4);
+    /* opacity  dodaje przezroczystosc tez dla czcionki */
+    /*opacity: 0.4;*/
+}
+.par2{
+    background-color: rgb(67, 3, 187);
+    /* opacity  dodaje przezroczystosc tez dla czcionki */
+    opacity: 0.4;
+}
+.second{
+    background: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+    width: 500px;
+    height: 500px;
+}
+.third{
+    width: 500px;
+    height: 500px;
+    background-image: url("http://freenaturestock.s3.amazonaws.com/1098.jpg");
+}
+.fourth{
+    width: 500px;
+    height: 500px;
+    background-image: url("http://rs167.pbsrc.com/albums/u140/weiwei1125/ART/avatar-fenix-100.jpg?w=280&h=210&fit=crop");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid;
+}

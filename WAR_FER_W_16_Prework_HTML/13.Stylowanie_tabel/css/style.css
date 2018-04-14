@@ -1,0 +1,18 @@
+th{
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+}
+/* komorki oddzielone
+td{
+    border: 1px solid;
+}
+*/
+/* komorki polaczone */
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}

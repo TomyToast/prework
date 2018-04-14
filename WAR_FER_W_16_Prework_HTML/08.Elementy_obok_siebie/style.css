@@ -1,0 +1,21 @@
+body{
+    background-color: lightgray;
+}
+#first-div{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+#second-div{
+    border: 1px solid ;
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+p{
+    width: 80px;
+    border: 2px dotted red;
+    display: inline-block;
+    
+}

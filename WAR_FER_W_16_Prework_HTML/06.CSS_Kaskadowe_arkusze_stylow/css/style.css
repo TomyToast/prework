@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+}
+#first-paragraph{
+    color:lightgreen;
+}
+#second-paragraph{
+    color:violet;
+}
+.brazowy{
+    color:brown;
+}
+.block{
+    width: 100px;
+    height: 50px;
+    border: 3px solid red;
+}

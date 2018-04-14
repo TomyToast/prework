@@ -1,0 +1,8 @@
+body{
+    background-color:lightgrey;
+}
+.a{
+    color:red;
+    border: 1px solid red;
+    width: 500px;
+}

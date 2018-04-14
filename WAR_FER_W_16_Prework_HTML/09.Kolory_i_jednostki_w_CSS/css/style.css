@@ -1,0 +1,46 @@
+body{
+    background-color: lightgrey;
+}
+#a{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+}
+#b{
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+}
+#c{
+    background-color: lightsalmon;
+    width: 100px;
+    height: 100px;
+}
+.hex{
+    background-color: #157486;
+    width: 100px;
+    height: 100px;
+}
+.rgba{
+    background-color:rgb(38,105,255);
+    opacity: 0.25;
+    width: 100px;
+    height: 100px;
+}
+.hsla{
+    background-color: hsla(45, 50%, 50%, 0.5);
+    width: 100px;
+    height: 100px;
+}
+.container{
+    background-color: lightskyblue;
+    width:200px;
+}
+.par1{
+    background-color: hotpink;
+    width:50%;
+}
+.par2{
+    background-color: khaki;
+    width:5em;
+}

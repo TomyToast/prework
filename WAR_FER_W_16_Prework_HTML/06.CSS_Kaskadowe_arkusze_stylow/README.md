@@ -1,50 +1,22 @@
-<img alt="logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
 
-# HTML &ndash; stylowanie dokumentu
+## Dodawanie styli do HTML-a
 
-  Wykonaj poniższe polecenia. Po każdym z nich zrób następujące czynności:
-  * zapisuj zmiany i odświeżaj przeglądarkę,
-  * umieść komentarze z opisem, co się zmieniło i dlaczego.
+1. Stwórz plik style.css w katalogu css. Dodaj plik style.css do index.html. W pliku style.css ustaw kolor tła dla elementu body (użyj koloru niebieskiego). Pamiętaj o odświeżeniu przeglądarki po każdej zmianie zarówno w HTML jak i w CSS.
 
-Czy zaobserwowałeś jakąś zasadę CSS?
+2. Dodaj style za pomocą elementu style do tagu head i zmień kolor tła dla body na różowy. Co się zmieniło i dlaczego? Napisz w komentarzu swoje spostrzeżenia.
 
-#### 1. ZEWNĘTRZNY ARKUSZ STYLI, niebieskie tło
-  W katalogu **css** stwórz plik **style.css** i ustaw w nim niebieski kolor tła elementowi **body**.
-
-#### 2. WEWNĘTRZNY ARKUSZ STYLI, różowe tło
-Dodaj wewnętrzne style do sekcji **head** pliku **html**. Ustaw w nich różowy kolor tła elementowi **body**.
-
-#### 3. STYLE INLINE, zielone tło
-W pliku **html** do tagu **body** dodaj atrybut **style**. Ustaw zielony kolor tła.
-
----
+3. Dodaj do tagu body atrybut style inlinowo i zmień kolor tła na zielony. Co się zmieniło tym razem i dlaczego? Napisz w komentarzu swoje spostrzeżenia.
 
 ## class i id
-Celem poniższych zadań jest odpowiednie korzystanie z selektorów elementu, klasy oraz identyfikatora (id). Wykonaj poniższe polecenia, wykorzystaj wszystkie trzy typy selektorów.
+### Kolejne ćwiczenia wykonuj w pliku style.css
 
-1. Stwórz pięć paragrafów. Ustaw wszystkim brązowy kolor fontu.
+1. Stwórz 2 paragrafy w body. Dla pierwszego z nich ustaw kolor czcionki na zielony, dla drugiego na fioletowy.
 
-2. Stwórz dwa kolejne paragrafy i ustaw im odpowiednie **id**:
-* pierwszy o zielonym kolorze tekstu i **id="first-paragraph"**,
-* drugi o fioletowym (violet) kolorze tekstu i **id="second-paragraph"**.
+2. Stwórz kolejne 10 paragrafów. Ustaw wszystkim kolor czcionki na brązowy.
 
-3. Stwórz pięć elementów **div** o klasie **block**, mają one mieć następujące własności:
-    * szerokość: 100px,
-    * wysokość: 50px,
-    * grubość obramowania: 3px,
-    * styl obramowania: pojedyncza linia ciągła (solid),
-    * kolor obramowania: czerwony.
-
-
-
-Efekt ma być zbliżony do poniższego przykładu:
-
-  ![screen](images/cascading.png)
-
+3. Stwórz 5 elementów div. Nadaj im takie same klasy np. 'block'. Nie dodawaj im atrybutu id.
+ W pliku style.css postaraj się dodać obramowanie dla każdego elementu, używając nazwy tej klasy (tylko raz)
 
 ## Potrzebujesz pomocy lub inspiracji?
-* [w3schools, selektor elementu](https://www.w3schools.com/cssref/sel_element.asp)
-* [w3schools, selektor klasy](https://www.w3schools.com/cssref/sel_class.asp)
-* [dokumentacja, selektor identyfikatora (id)](https://developer.mozilla.org/pl/docs/Web/CSS/ID_selectors),
-* [dokumentacja, własność border](https://developer.mozilla.org/pl/docs/Web/CSS/border),
-* HTML i CSS &ndash; pre-work
+* HTML i CSS - pre-work

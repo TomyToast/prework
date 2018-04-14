@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>14.Formularze</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="d1">
+        <form class="contactForm">
+            <label>Your Name 
+                <input class="place" type="text" placeholder="Your Name">
+            </label>
+            <label>Your e-mail adress 
+                <input class="place" type="email" placeholder="Your e-mail adress">
+            </label>
+            <label>Your Message
+                <textarea class="place area" name="comment" form="usrform" placeholder="Please describe your question or comment"></textarea> 
+            </label>
+            <button>Submit</button>
+        </form>        
+    </div>  
+    <div class="d2">
+        <form class="rentCarForm">
+                <h1><strong>Car rental</strong></h1>              
+                    <fieldset>
+                        <legend>Choose car class</legend>
+                            <input type="radio" name="car" value="male"> mini<br>
+                            <input type="radio" name="car" value="economy"> economy<br>
+                            <input type="radio" name="car" value="compact"> compact<br>
+                            <input type="radio" name="car" value="SUV"> SUV<br>
+                            <input type="radio" name="car" value="VAN"> VAN<br>
+                    </fieldset>  
+                    
+                    <fieldset>
+                            <legend>Choose car class</legend>
+                                <input type="checkbox" name="eq" value="child set"> child set<br>
+                                <input type="checkbox" name="eq" value="GPS" checked="checked"> GPS<br>
+                                <input type="checkbox" name="eq" value="DVD player"> DVD player<br>
+                        </fieldset> 
+
+                
+                <label>Rental start date  
+                    <input type="text" placeholder="rrr-mm-dd">
+                </label>                
+                <label>Numbers of days 
+                <input type="number" >
+                </label>    
+                <label>Enter Password 
+                <input type="password" name="lastname" >
+                </label>
+                <button>Order now!</button>   
+        </form>
+    </div> 
+</body>
+</html>

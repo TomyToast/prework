@@ -1,0 +1,19 @@
+.contactForm{
+    border: 1px solid lightblue;
+    width: 300px;
+    padding: 30px;
+    display: inline-block;
+    font-weight: 600;
+}
+.rentCarForm{
+    border: 1px solid lightblue;
+    width: 300px;
+    display: inline-block;
+    font-weight: 600;
+}
+.place{
+    width: 300px;
+}
+.area{
+    height: 150px;
+}
